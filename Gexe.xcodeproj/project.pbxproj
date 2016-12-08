@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FABF91531DF9B2060047AE22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABF91521DF9B2060047AE22 /* AppDelegate.swift */; };
+		FABF91551DF9B2060047AE22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABF91541DF9B2060047AE22 /* ViewController.swift */; };
+		FABF91581DF9B2060047AE22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FABF91561DF9B2060047AE22 /* Main.storyboard */; };
+		FABF915A1DF9B2060047AE22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FABF91591DF9B2060047AE22 /* Assets.xcassets */; };
+		FABF915D1DF9B2060047AE22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FABF915B1DF9B2060047AE22 /* LaunchScreen.storyboard */; };
+		FABF91681DF9B2060047AE22 /* GexeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABF91671DF9B2060047AE22 /* GexeTests.swift */; };
+		FABF91731DF9B2060047AE22 /* GexeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABF91721DF9B2060047AE22 /* GexeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FABF91641DF9B2060047AE22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FABF91471DF9B2060047AE22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FABF914E1DF9B2060047AE22;
+			remoteInfo = Gexe;
+		};
+		FABF916F1DF9B2060047AE22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FABF91471DF9B2060047AE22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FABF914E1DF9B2060047AE22;
+			remoteInfo = Gexe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FABF914F1DF9B2060047AE22 /* Gexe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gexe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FABF91521DF9B2060047AE22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FABF91541DF9B2060047AE22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FABF91571DF9B2060047AE22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FABF91591DF9B2060047AE22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FABF915C1DF9B2060047AE22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FABF915E1DF9B2060047AE22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FABF91631DF9B2060047AE22 /* GexeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GexeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FABF91671DF9B2060047AE22 /* GexeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GexeTests.swift; sourceTree = "<group>"; };
+		FABF91691DF9B2060047AE22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FABF916E1DF9B2060047AE22 /* GexeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GexeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FABF91721DF9B2060047AE22 /* GexeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GexeUITests.swift; sourceTree = "<group>"; };
+		FABF91741DF9B2060047AE22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FABF914C1DF9B2060047AE22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FABF91601DF9B2060047AE22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FABF916B1DF9B2060047AE22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FABF91461DF9B2060047AE22 = {
+			isa = PBXGroup;
+			children = (
+				FABF91511DF9B2060047AE22 /* Gexe */,
+				FABF91661DF9B2060047AE22 /* GexeTests */,
+				FABF91711DF9B2060047AE22 /* GexeUITests */,
+				FABF91501DF9B2060047AE22 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FABF91501DF9B2060047AE22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FABF914F1DF9B2060047AE22 /* Gexe.app */,
+				FABF91631DF9B2060047AE22 /* GexeTests.xctest */,
+				FABF916E1DF9B2060047AE22 /* GexeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FABF91511DF9B2060047AE22 /* Gexe */ = {
+			isa = PBXGroup;
+			children = (
+				FABF91521DF9B2060047AE22 /* AppDelegate.swift */,
+				FABF91541DF9B2060047AE22 /* ViewController.swift */,
+				FABF91561DF9B2060047AE22 /* Main.storyboard */,
+				FABF91591DF9B2060047AE22 /* Assets.xcassets */,
+				FABF915B1DF9B2060047AE22 /* LaunchScreen.storyboard */,
+				FABF915E1DF9B2060047AE22 /* Info.plist */,
+			);
+			path = Gexe;
+			sourceTree = "<group>";
+		};
+		FABF91661DF9B2060047AE22 /* GexeTests */ = {
+			isa = PBXGroup;
+			children = (
+				FABF91671DF9B2060047AE22 /* GexeTests.swift */,
+				FABF91691DF9B2060047AE22 /* Info.plist */,
+			);
+			path = GexeTests;
+			sourceTree = "<group>";
+		};
+		FABF91711DF9B2060047AE22 /* GexeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FABF91721DF9B2060047AE22 /* GexeUITests.swift */,
+				FABF91741DF9B2060047AE22 /* Info.plist */,
+			);
+			path = GexeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FABF914E1DF9B2060047AE22 /* Gexe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FABF91771DF9B2060047AE22 /* Build configuration list for PBXNativeTarget "Gexe" */;
+			buildPhases = (
+				FABF914B1DF9B2060047AE22 /* Sources */,
+				FABF914C1DF9B2060047AE22 /* Frameworks */,
+				FABF914D1DF9B2060047AE22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gexe;
+			productName = Gexe;
+			productReference = FABF914F1DF9B2060047AE22 /* Gexe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FABF91621DF9B2060047AE22 /* GexeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FABF917A1DF9B2060047AE22 /* Build configuration list for PBXNativeTarget "GexeTests" */;
+			buildPhases = (
+				FABF915F1DF9B2060047AE22 /* Sources */,
+				FABF91601DF9B2060047AE22 /* Frameworks */,
+				FABF91611DF9B2060047AE22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FABF91651DF9B2060047AE22 /* PBXTargetDependency */,
+			);
+			name = GexeTests;
+			productName = GexeTests;
+			productReference = FABF91631DF9B2060047AE22 /* GexeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FABF916D1DF9B2060047AE22 /* GexeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FABF917D1DF9B2060047AE22 /* Build configuration list for PBXNativeTarget "GexeUITests" */;
+			buildPhases = (
+				FABF916A1DF9B2060047AE22 /* Sources */,
+				FABF916B1DF9B2060047AE22 /* Frameworks */,
+				FABF916C1DF9B2060047AE22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FABF91701DF9B2060047AE22 /* PBXTargetDependency */,
+			);
+			name = GexeUITests;
+			productName = GexeUITests;
+			productReference = FABF916E1DF9B2060047AE22 /* GexeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FABF91471DF9B2060047AE22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Developers;
+				TargetAttributes = {
+					FABF914E1DF9B2060047AE22 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					FABF91621DF9B2060047AE22 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FABF914E1DF9B2060047AE22;
+					};
+					FABF916D1DF9B2060047AE22 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FABF914E1DF9B2060047AE22;
+					};
+				};
+			};
+			buildConfigurationList = FABF914A1DF9B2060047AE22 /* Build configuration list for PBXProject "Gexe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FABF91461DF9B2060047AE22;
+			productRefGroup = FABF91501DF9B2060047AE22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FABF914E1DF9B2060047AE22 /* Gexe */,
+				FABF91621DF9B2060047AE22 /* GexeTests */,
+				FABF916D1DF9B2060047AE22 /* GexeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FABF914D1DF9B2060047AE22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FABF915D1DF9B2060047AE22 /* LaunchScreen.storyboard in Resources */,
+				FABF915A1DF9B2060047AE22 /* Assets.xcassets in Resources */,
+				FABF91581DF9B2060047AE22 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FABF91611DF9B2060047AE22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FABF916C1DF9B2060047AE22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FABF914B1DF9B2060047AE22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FABF91551DF9B2060047AE22 /* ViewController.swift in Sources */,
+				FABF91531DF9B2060047AE22 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FABF915F1DF9B2060047AE22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FABF91681DF9B2060047AE22 /* GexeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FABF916A1DF9B2060047AE22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FABF91731DF9B2060047AE22 /* GexeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FABF91651DF9B2060047AE22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FABF914E1DF9B2060047AE22 /* Gexe */;
+			targetProxy = FABF91641DF9B2060047AE22 /* PBXContainerItemProxy */;
+		};
+		FABF91701DF9B2060047AE22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FABF914E1DF9B2060047AE22 /* Gexe */;
+			targetProxy = FABF916F1DF9B2060047AE22 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FABF91561DF9B2060047AE22 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FABF91571DF9B2060047AE22 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FABF915B1DF9B2060047AE22 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FABF915C1DF9B2060047AE22 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FABF91751DF9B2060047AE22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FABF91761DF9B2060047AE22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FABF91781DF9B2060047AE22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Gexe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.developers.Gexe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FABF91791DF9B2060047AE22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Gexe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.developers.Gexe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FABF917B1DF9B2060047AE22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GexeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.developers.GexeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gexe.app/Gexe";
+			};
+			name = Debug;
+		};
+		FABF917C1DF9B2060047AE22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GexeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.developers.GexeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gexe.app/Gexe";
+			};
+			name = Release;
+		};
+		FABF917E1DF9B2060047AE22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = GexeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.developers.GexeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Gexe;
+			};
+			name = Debug;
+		};
+		FABF917F1DF9B2060047AE22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = GexeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.developers.GexeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Gexe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FABF914A1DF9B2060047AE22 /* Build configuration list for PBXProject "Gexe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FABF91751DF9B2060047AE22 /* Debug */,
+				FABF91761DF9B2060047AE22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FABF91771DF9B2060047AE22 /* Build configuration list for PBXNativeTarget "Gexe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FABF91781DF9B2060047AE22 /* Debug */,
+				FABF91791DF9B2060047AE22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FABF917A1DF9B2060047AE22 /* Build configuration list for PBXNativeTarget "GexeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FABF917B1DF9B2060047AE22 /* Debug */,
+				FABF917C1DF9B2060047AE22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FABF917D1DF9B2060047AE22 /* Build configuration list for PBXNativeTarget "GexeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FABF917E1DF9B2060047AE22 /* Debug */,
+				FABF917F1DF9B2060047AE22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FABF91471DF9B2060047AE22 /* Project object */;
+}
